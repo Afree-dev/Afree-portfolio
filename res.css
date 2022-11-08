@@ -257,6 +257,10 @@
 	.simg:hover{
 		transform: scale(1.2);
 	}
+	#service hr{
+		width: 85%;
+		margin: 0 auto;
+	}
 	@media(min-width: 800px ){
 		#pc{
 			display: none;	
