@@ -1,0 +1,277 @@
+	@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		position: relative;
+		background-image: url(cover.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		align-content: center;
+		text-align: center;
+		align-content: center;
+	}
+	header #nav1 ul{
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		float: right;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	header #nav1 ul a{
+		/*position: sticky;*/
+		/*top: 0px;*/
+		display: block;
+		width: 200px;
+		height: 25px;
+		/*background-color: rgba(0,0,0,0.5);*/
+		padding: 5px;
+		padding-top: 10px;
+		text-decoration: none;
+		color: rgb(255,255,255);
+		font-size: 20px;
+		font-family: sans-serif;
+		font-style: oblique;
+		text-transform: uppercase;
+		transition: 0.5s;
+		transform: skewX(-15deg); 
+		text-decoration: none;
+	}
+	header #nav1 ul a:active{
+		opacity: 0.7;
+	}
+	header #nav1 ul a:hover{
+		background-color: rgba(139,191,243,0.5);
+	}
+	.nava{
+		position: absolute;
+		top: 7px;
+		left: 17px;
+		visibility: hidden;
+	}
+	#img1{
+		top: 7px;
+		left: 35px;
+	}
+	#img2{
+		top: 7px;
+		left: 35px;
+	}
+	#img3{
+		position: absolute;
+		top: 7px;
+		left: 25px;
+		visibility: hidden;
+	}
+	#img5{
+		top: 8px;
+		left: 30px;
+	}
+	header li:nth-child(1):hover #img1{
+		visibility: visible;
+	}
+	header li:nth-child(2):hover #img2{
+		visibility: visible;
+	}
+	header li:nth-child(3):hover #img3{
+		visibility: visible;
+	}
+	header li:nth-child(4):hover #img4{
+		visibility: visible;
+	}
+	header li:nth-child(5):hover #img5{
+		visibility: visible;
+	}
+	section{
+		margin: 0 auto; 
+		align-items: center;
+		clear: right;
+		width: 1000px;
+		height: auto;
+		/*background-color: red;*/
+	}
+	#intro{
+		width: 1000px;
+		height: auto;
+		margin-top: 10px;
+	}
+	#main{
+		padding-top: 140px;
+	}
+	#main h1{
+		font-family: 'Kolker Brush', cursive;
+		font-size: 100px;
+		color: lightblue;
+		text-shadow: 3px 3px gray;
+	}
+	#main pre{
+		font-size: 30px;
+		font-weight: bold;
+		color: #B98492;
+	}
+	#about{
+		margin-top: 130px;
+		width: 1000px;
+		height: auto;
+	}
+	.heading{
+		text-align: left;
+		font-size: 50px;
+		font-style: oblique;
+		color: rgba(0,0,0,0.5);
+		text-decoration: underline;
+	}
+	#dev table td{
+		text-align: justify;
+		font-size: 25px;
+		width: 500px;
+		transition: 0.5s;
+		color: rgba(255,255,255,0.5);
+	}
+	#dev table td img{
+		padding-left: 150px;
+		transition: 0.5s;
+	}
+	#dev table td img:hover{
+		transform: scale(1.1);
+	}
+	#dev table td:hover,.p:hover{
+		color: lightblue;
+		/*font-weight: bold;*/
+	}
+	#service{
+		padding: 10px;
+		margin-top: 150px;
+		height: auto;
+		width: 1000;
+	}
+	#web{
+		height: auto;
+		width: 480px;
+	}
+	#app{
+		height: auto;
+		width: 480px;
+		float: right;
+	}
+	.h1{
+		color: white;
+		opacity: 0.5;
+		font-size: 35px;
+		text-transform: uppercase;
+		font-style: oblique;
+	}
+	.p{
+		color: rgba(255,255,255,0.5);
+		font-size: 25px;
+		text-align: justify;
+		transition: 0.5s;
+	}
+	#work{
+		margin-top: 100px;
+	}
+	#work1{
+		margin-top: 15px;
+	}
+	#work1 td{
+		padding: 20px;
+	}
+	.wrkimg{
+		border-radius: 25px;
+	}
+	.imgpara{
+		float: left;
+		shape-outside: circle(10%);
+	}
+	#contact{
+		margin-top: 100px;
+		height: 500px;
+	}
+	#contact1{
+		height: 350px;
+		margin: 50px;
+	}
+	#contact2{
+		margin: 50px;
+		height: auto;
+	}
+	form{
+		padding: 30px;
+	}
+	.inp{
+		color: white;
+		height: 30px;
+		width: 150px;
+		border-radius: 5px;
+		background-color: black;
+	}
+	#inp2{
+		margin-left: 20px;
+	}
+	#inp3{
+		margin-top: 10px;
+		width: 325px;
+	}
+	#inp4{
+		margin-top: 10px;
+		width: 325px;
+		height: 100px;
+	}
+	input[type=submit]{
+		padding: 5px;
+		font-size: 15px;
+		font-style: oblique;
+		margin-top: 10px;
+		background-color: black;
+		color: white;
+		width: 100px;
+		height: 30px;
+		border-radius: 10px 0px 10px 0px;
+		box-shadow: 2px 2px gray;
+	}
+	#cs li{
+		display: inline;
+	}
+	#contact1 h3{
+		font-size: 35px;
+		color: white;
+		font-style: oblique;
+	}
+	#cs li a{
+		width: 25px;
+		padding-left: 25px; 
+	}
+	.simg{
+		width: 25px;
+		height: 25px;
+	}
+	#simg2{
+		margin-top: 20px;
+		width: 35px;
+		height: 35px;
+	}
+	.simg:hover{
+		transform: scale(2.5);
+	}
+	@media(min-width: 800px ){
+		#pc{
+			display: none;	
+		}
+	}
+	@media(max-width: 800px){
+		header,section{
+			display: none;
+		}
+
+		#pc{
+			color: white;
+			font-size: 20px;
+			align-items: center;
+			transform: translateY(150px);
+			display: block;
+		}
+	}
